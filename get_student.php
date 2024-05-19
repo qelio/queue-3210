@@ -3,7 +3,7 @@
     $host = "localhost";
     $db_name = "l90858az_queue";
     $username = "l90858az_queue";
-    $password = "Slava2012";
+    $password = "--";
     $connect = mysqli_connect($host, $username, $password, $db_name);
     $connect->set_charset("utf8");
     $auth_flag = false;
